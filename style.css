@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resume-contents{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;   
+    background-color: rgb(107, 36, 96);
+        
+}
+
+.right-section{
+    grid-column: span 5;
+    height: 100%;
+    background-color: rgb(223, 180, 222);
+    border-radius: 0px 60px 90px 0px;
+}
+
+.profile-image{
+    height: 230px;   
+    display: block;
+    margin: 30px auto;
+   
+}
+
+.name{
+    color: rgb(249, 226, 238);
+    text-align: center;
+    margin-top: 10px;
+}
+.profession{
+    color: rgb(255, 147, 205);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px ;
+   
+}
+.left-title{
+    color:  rgb(249, 226, 238);
+    margin-top: 5px;
+}
+.contact-info{
+   margin-left: 10px;
+
+}
+
+.skills{
+    margin-left: 10px; 
+}
+
+.contact{
+    color:rgb(255, 147, 205);
+    margin-left: 5%;
+    margin-top: 2px;
+}
+
+.skills-text{
+    color:rgb(255, 147, 205);
+    margin-left: 5%;
+    margin-top: 2px;
+
+}
+
+.right-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(137, 14, 118);
+    margin-top: 30px;
+    margin-right: 5%;
+}
+
+.about-me-contents{
+    margin-top: 20px;
+   
+}
+
+.about-gap{
+    margin-left: 20px;
+}
+.professional-experience{
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(137, 14, 118);
+
+}
+
+.academic-formation{
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(137, 14, 118);
+
+}
+
