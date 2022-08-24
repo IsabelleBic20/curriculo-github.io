@@ -89,17 +89,59 @@
 .about-gap{
     margin-left: 20px;
 }
+.company-contents{
+    margin-top: 15px;
+}
 .professional-experience{
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(137, 14, 118);
+
+}
+
+.academic-formation-title{
     margin-top: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(137, 14, 118);
-
+   
 }
 
-.academic-formation{
-    margin-top: 10px;
+.academic-formation-left{
+    margin-top: 20px;
+    float: left;
+    
+}
+
+
+.academic-formation-right{
+    margin-top: 20px;
+    float: right; 
+   
+      
+}
+
+.certifications-title{
+    margin-top: 120px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(137, 14, 118);
-
+      
 }
+
+
+.certifications-left-1{
+    margin-top: 10px;
+}
+
+.certifications-left-2{
+    margin-top: 10px;    
+}
+
+.certifications-left-3{
+    margin-top: 10px;    
+}
+
+
+
+
+
 
